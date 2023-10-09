@@ -1,4 +1,4 @@
-import { SearchBar } from "@/components";
+import { HeroCarousel, SearchBar } from "@/components";
 
 // Projeto desenvolvido por Francisco Costa
 export default function Home() {
@@ -20,8 +20,8 @@ export default function Home() {
 
           <SearchBar />
         </div>
+        <HeroCarousel />
 
-        {/* HeroCarousel */}
 
       </div>
     </section>
